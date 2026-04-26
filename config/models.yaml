@@ -1,0 +1,29 @@
+model_a:
+  label: GPT-5.4
+  provider: openai
+  model_name: gpt-5.4
+  temperature: 0.2
+  max_tokens: 1200
+  timeout: 60
+  retry_count: 2
+  input_token_cost: 0.000005
+  output_token_cost: 0.000015
+
+model_b:
+  label: GPT-5.5
+  provider: openai
+  model_name: gpt-5.5
+  temperature: 0.2
+  max_tokens: 1200
+  timeout: 60
+  retry_count: 2
+  input_token_cost: 0.00001
+  output_token_cost: 0.00003
+
+judge_model:
+  provider: openai
+  model_name: gpt-5.4
+  temperature: 0.0
+  max_tokens: 800
+  timeout: 60
+  retry_count: 1

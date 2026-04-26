@@ -1,0 +1,28 @@
+run:
+  prompt_csv: data/prompts_sample.csv
+  golden_csv: data/golden_answers_sample.csv
+  long_context_file: data/long_context_sample.txt
+  output_results_csv: outputs/results/latest_eval_results.csv
+  output_pairwise_csv: outputs/results/latest_pairwise_results.csv
+  output_agent_csv: outputs/results/latest_agent_results.csv
+  database_path: outputs/results/eval_results.db
+  random_seed: 42
+  run_name: baseline_eval
+
+scoring:
+  weights_file: config/scoring_weights.yaml
+  judge_enabled: true
+  pairwise_enabled: true
+  strict_json_for_requires_json: true
+
+reporting:
+  report_dir: outputs/reports
+  include_prompt_level_tables: true
+
+special_tests:
+  multiturn_turns: 10
+  run_long_context: true
+  run_hallucination_traps: true
+  run_ambiguity_checks: true
+  run_recovery_checks: true
+  run_agent_benchmark: true

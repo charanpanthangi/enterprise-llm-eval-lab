@@ -1,0 +1,23 @@
+Program Orion - Enterprise Growth Initiative
+
+Section 1: Objectives
+Program Orion aims to grow enterprise ARR by 18% between Q2 and Q4 of fiscal year 2026 through pricing optimization, partner-led distribution, and onboarding improvements.
+
+Section 2: Financial Projections
+Projected margin by quarter:
+- Q2: 31%
+- Q3: 34%
+- Q4: 37%
+Q4 is expected to lead due to lower discounting and improved onboarding automation.
+
+Section 3: Risks
+Top risks include:
+1) CRM migration delays that may interrupt lead routing.
+2) Regulatory review delays for cross-border data transfer.
+3) Partner enablement lag causing inconsistent implementation quality.
+
+Section 4: Dependencies
+Launch sequencing depends on completion of identity federation rollout. Without identity federation, partner portal access cannot be enabled globally.
+
+Section 5: Timeline
+Pilot starts in late Q2, scale begins in Q3, and global roll-out occurs in Q4.
