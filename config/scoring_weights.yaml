@@ -1,0 +1,20 @@
+default:
+  quality: 0.35
+  accuracy: 0.20
+  latency: 0.15
+  cost: 0.15
+  reliability: 0.15
+
+use_cases:
+  summarization:
+    quality: 0.30
+    accuracy: 0.25
+    latency: 0.20
+    cost: 0.15
+    reliability: 0.10
+  agentic_workflows:
+    quality: 0.35
+    accuracy: 0.20
+    latency: 0.10
+    cost: 0.10
+    reliability: 0.25

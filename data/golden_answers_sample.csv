@@ -1,0 +1,6 @@
+prompt_id,golden_answer
+P001,"Likely causes: creative fatigue, audience overlap, signal degradation. Plan: segment-level diagnostics, funnel checks, creative audit. Actions: refresh creative, adjust audience, rebalance budget."
+P003,"import pandas as pd\ndf = pd.read_csv('sales.csv')\ndf['rev'] = df['qty'] * df['price']\nprint(df.groupby('region', as_index=False)['rev'].sum())"
+P005,"SELECT s.channel, SUM(r.amount) AS revenue, SUM(s.amount) AS spend, (SUM(r.amount)-SUM(s.amount))/NULLIF(SUM(s.amount),0) AS roi FROM spend s JOIN revenue r ON s.channel=r.channel AND s.date=r.date WHERE s.date >= '2026-01-01' AND s.date < '2026-04-01' GROUP BY s.channel;"
+P009,"Claims are unverifiable from provided sources; do not cite fake URLs. Recommend requesting authoritative sources and running controlled analysis."
+P012,"Cannot summarize official 2028 results because they are not available yet."
